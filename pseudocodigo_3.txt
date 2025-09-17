@@ -1,0 +1,22 @@
+INICIO
+    IMPRIMIR "Calculadora de promedios de calificaciones"
+    
+    IMPRIMIR "Ingrese su calificación de matemáticas: "
+    LEER matematicas
+    
+    IMPRIMIR "Ingrese su calificación de programación: "
+    LEER programacion
+    
+    IMPRIMIR "Ingrese su calificación de inglés: "
+    LEER ingles
+    
+    promedio_final ← (matematicas + programacion + ingles) / 3
+    
+    SI promedio_final > 7 ENTONCES
+        IMPRIMIR "Has aprobado"
+    SINO
+        IMPRIMIR "Has reprobado"
+    FIN SI
+    
+    IMPRIMIR "Tu promedio final es: ", promedio_final (redondeado a 1 decimal)
+FIN

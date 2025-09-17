@@ -1,0 +1,10 @@
+INICIO
+    IMPRIMIR "Calculadora de grados Celsius a Fahrenheit"
+    
+    IMPRIMIR "Ingrese los grados Celsius que desea convertir a Fahrenheit: "
+    LEER grados_celsius
+    
+    grados_fahrenheit ← (grados_celsius * 9/5) + 32
+    
+    IMPRIMIR "Su temperatura en grados Fahrenheit es: ", grados_fahrenheit
+FIN

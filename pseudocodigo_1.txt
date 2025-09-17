@@ -1,0 +1,13 @@
+INICIO
+    IMPRIMIR "Calculadora de áreas de rectángulos"
+    
+    IMPRIMIR "Inserte la base de su rectángulo: "
+    LEER base
+    
+    IMPRIMIR "Inserte la altura de su rectángulo: "
+    LEER altura
+    
+    area ← base * altura
+    
+    IMPRIMIR "El área de su rectángulo es: ", area
+FIN

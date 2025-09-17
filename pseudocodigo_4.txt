@@ -1,0 +1,13 @@
+INICIO
+    IMPRIMIR "Ingrese el precio de su producto: "
+    LEER producto
+
+    IMPRIMIR "Ingrese el IVA que quiere aplicarle al producto (%): "
+    LEER iva
+
+    iva_del_producto ← (producto * iva) / 100
+    producto_final ← producto + iva_del_producto
+
+    IMPRIMIR "El IVA es: ", iva_del_producto (redondeado a 2 decimales)
+    IMPRIMIR "El precio final con IVA es: ", producto_final (redondeado a 2 decimales)
+FIN
